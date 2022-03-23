@@ -6,7 +6,7 @@
 $chamados = array();
 
 //abrir arquivo.hd
-$arquivo = fopen('arquivo.hd', 'r');
+$arquivo = fopen('../../../app_help_desk/arquivo.hd', 'r');
 
 //recuperação de registros
 while (!feof($arquivo)) {
