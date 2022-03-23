@@ -27,5 +27,3 @@ foreach($usuarios_app as $user){
         $_SESSION['autenticado'] = 'NAO';
         header('Location: index.php?login=erro');
     }
-
-?>

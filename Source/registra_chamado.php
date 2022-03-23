@@ -20,5 +20,3 @@
     fclose($arquivo);
 
     header('location: abrir_chamado.php');
-
-?>
